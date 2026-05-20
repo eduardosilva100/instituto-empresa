@@ -1,0 +1,1287 @@
+{
+  "meta": {
+    "nome": "Observatório Governança Corporativa — Companhias Abertas B3",
+    "descricao": "Dados públicos CVM (FRE, IPE, PAS), TSE e B3. Atualização: mai/2026.",
+    "fontes": [
+      "CVM FRE 2025-2026",
+      "CVM IPE 2026",
+      "CVM PAS",
+      "TSE 2022 SC+RS",
+      "B3 Cadastro"
+    ],
+    "url_painel": "https://eduardosilva100.github.io/instituto-empresa/",
+    "url_dados": "https://raw.githubusercontent.com/eduardosilva100/instituto-empresa/main/dados.json"
+  },
+  "resumo_geral": {
+    "empresas_cobertas_ago2026": 729,
+    "conselheiros_ca_unicos_cpf": 3465,
+    "empresas_com_ca_fre2025": 693,
+    "empresas_com_comite_auditoria": 304,
+    "matches_pas_ativos": 0,
+    "vinculos_tse_documentados": 55
+  },
+  "achado_1_violacoes_independencia": {
+    "titulo": "Conselheiros declarados independentes eleitos exclusivamente pelo controlador",
+    "fundamento": "Código IBGC 6ª ed. 2023 + Reg. Novo Mercado B3 Art. 15 §4°",
+    "total_contradicoes": 592,
+    "total_empresas_afetadas": 260,
+    "casos_multiplas_eleicoes": 411,
+    "top_empresas": [
+      {
+        "empresa": "Itau Unibanco Holding S.A.",
+        "cnpj": "60.872.504/0001-23",
+        "n_casos": 7,
+        "membros": [
+          "Maria Helena Dos Santos Fernandes De Santana",
+          "Candido Botelho Bracher",
+          "Marcos Marinho Lutz"
+        ]
+      },
+      {
+        "empresa": "Eurofarma Laboratórios S.A.",
+        "cnpj": "61.190.096/0001-92",
+        "n_casos": 7,
+        "membros": [
+          "Nelson Augusto Mussolini",
+          "Juliana Rozenbaum Munemori",
+          "Marcelo Martins"
+        ]
+      },
+      {
+        "empresa": "Energisa S.A.",
+        "cnpj": "00.864.214/0001-06",
+        "n_casos": 6,
+        "membros": [
+          "Luiz Eduardo Froés Do Amaral Osório",
+          "Rogerio Sekeff Zampronha",
+          "Miguel Nuno Simões Nunes Ferreira Setas"
+        ]
+      },
+      {
+        "empresa": "Raia Drogasil S.A.",
+        "cnpj": "61.585.865/0001-51",
+        "n_casos": 6,
+        "membros": [
+          "Flavia Maria Bittencourt",
+          "Philipp Paul Marie Povel",
+          "Eliezer Silva"
+        ]
+      },
+      {
+        "empresa": "Centrais Elet De Santa Catarina S.A.",
+        "cnpj": "83.878.892/0001-55",
+        "n_casos": 5,
+        "membros": [
+          "Glauco Jose Corte",
+          "Marco Aurelio Quadros",
+          "Cesar Souza Junior"
+        ]
+      },
+      {
+        "empresa": "Camil Alimentos S.A.",
+        "cnpj": "64.904.295/0001-03",
+        "n_casos": 5,
+        "membros": [
+          "Cláudia Elisa De Pinho Soares",
+          "Piero Paolo Picchioni Minardi",
+          "José Antônio Do Prado Fay"
+        ]
+      },
+      {
+        "empresa": "Bco Santander (Brasil) S.A.",
+        "cnpj": "90.400.888/0001-42",
+        "n_casos": 5,
+        "membros": [
+          "Pedro Augusto De Melo",
+          "Deborah Stern Vieitas",
+          "Deborah Patricia Wright"
+        ]
+      },
+      {
+        "empresa": "Telefônica Brasil S.A",
+        "cnpj": "02.558.157/0001-62",
+        "n_casos": 5,
+        "membros": [
+          "Denise Soares Dos Santos",
+          "Solange Sobral Targa",
+          "Andrea Capelo Pinheiro"
+        ]
+      },
+      {
+        "empresa": "Cia Melhoramentos De Sao Paulo",
+        "cnpj": "60.730.348/0001-66",
+        "n_casos": 5,
+        "membros": [
+          "Thibaud Lecuyer",
+          "Hélio Lima Magalhães",
+          "Antonio Joaquim De Oliveira"
+        ]
+      },
+      {
+        "empresa": "Magazine Luiza S.A.",
+        "cnpj": "47.960.950/0001-21",
+        "n_casos": 5,
+        "membros": [
+          "Floriano Peixoto Vieira Neto",
+          "Henrique Bredda",
+          "Inês Corrêa De Souza"
+        ]
+      },
+      {
+        "empresa": "Tigre S.A. Participações",
+        "cnpj": "84.684.455/0001-63",
+        "n_casos": 4,
+        "membros": [
+          "Fábio Hering",
+          "Reynaldo Passanezi Filho",
+          "Walter Herbert Dissinger"
+        ]
+      },
+      {
+        "empresa": "Mpm Corpóreos S.A.",
+        "cnpj": "26.659.061/0001-59",
+        "n_casos": 4,
+        "membros": [
+          "Eduardo França De La Peña",
+          "Ana Paula Giuntini Zamper",
+          "Fábio De Barros Pinheiro"
+        ]
+      },
+      {
+        "empresa": "Cia Estadual De Águas E Esgotos - Cedae",
+        "cnpj": "33.352.394/0001-04",
+        "n_casos": 4,
+        "membros": [
+          "Sérgio Cabral De Sá",
+          "Ricardo Lessa Carrazedo",
+          "Oswaldo Serrano De Oliveira"
+        ]
+      },
+      {
+        "empresa": "Natura &Co Holding S.A.",
+        "cnpj": "32.785.497/0001-97",
+        "n_casos": 4,
+        "membros": [
+          "Maria Eduarda Mascarenhas Kertész",
+          "Gilberto Mifano",
+          "Bruno De Araújo Lima Rocha"
+        ]
+      },
+      {
+        "empresa": "Boa Safra Sementes S.A.",
+        "cnpj": "10.807.374/0001-77",
+        "n_casos": 4,
+        "membros": [
+          "André Ricardo Miranda Dias",
+          "Júlio Cesar De Toledo Piza Neto",
+          "Carlos Emilio Bartilotti"
+        ]
+      },
+      {
+        "empresa": "Cia Saneamento Do Parana - Sanepar",
+        "cnpj": "76.484.013/0001-45",
+        "n_casos": 4,
+        "membros": [
+          "João Biral Junior",
+          "Eduardo Francisco Sciarra",
+          "Rafael Lamastra Junior"
+        ]
+      },
+      {
+        "empresa": "Klabin S.A.",
+        "cnpj": "89.637.490/0001-45",
+        "n_casos": 4,
+        "membros": [
+          "Celso Lafer",
+          "Amaury Guilherme Bier",
+          "Marcelo Mesquita De Siqueira Filho"
+        ]
+      },
+      {
+        "empresa": "Itaúsa S.A.",
+        "cnpj": "61.532.644/0001-15",
+        "n_casos": 4,
+        "membros": [
+          "Patrícia De Moraes",
+          "Edson Carlos De Marchi",
+          "Vicente Furletti Assis"
+        ]
+      },
+      {
+        "empresa": "Hospital Mater Dei S.A.",
+        "cnpj": "16.676.520/0001-59",
+        "n_casos": 4,
+        "membros": [
+          "Fernando Daniel De Moura Fonseca",
+          "Pedro Franco Sales",
+          "Geraldo Sardinha Pinto Filho"
+        ]
+      },
+      {
+        "empresa": "Jhsf Participacoes S.A.",
+        "cnpj": "08.294.224/0001-65",
+        "n_casos": 4,
+        "membros": [
+          "Alberto Fernandes",
+          "Richard Rainer",
+          "Pablo Ramon Di Si"
+        ]
+      },
+      {
+        "empresa": "Suzano S.A.",
+        "cnpj": "16.404.287/0001-55",
+        "n_casos": 4,
+        "membros": [
+          "Maria Priscila Rodini Vansetti Machado",
+          "Paulo Sergio Kakinoff",
+          "Paulo Rogerio Caffarelli"
+        ]
+      },
+      {
+        "empresa": "Mrv Engenharia E Participacoes S.A.",
+        "cnpj": "08.343.492/0001-20",
+        "n_casos": 4,
+        "membros": [
+          "Antônio Kandir",
+          "Paulo Sergio Kakinoff",
+          "José Carlos Wollenweber Filho"
+        ]
+      },
+      {
+        "empresa": "Marcopolo S.A.",
+        "cnpj": "88.611.835/0001-29",
+        "n_casos": 4,
+        "membros": [
+          "Henrique Bredda",
+          "Denise Casagrande Da Rocha",
+          "Dan Ioschpe"
+        ]
+      },
+      {
+        "empresa": "Méliuz S.A.",
+        "cnpj": "14.110.585/0001-07",
+        "n_casos": 4,
+        "membros": [
+          "Guilherme Villela De Viana Bandeira",
+          "Roberto Christiano Gaspar De Oliveira",
+          "Tiago Bortoletto Veloso De Almeida"
+        ]
+      },
+      {
+        "empresa": "Slc Agricola S.A.",
+        "cnpj": "89.096.457/0001-55",
+        "n_casos": 4,
+        "membros": [
+          "Fernando De Castro Reinach",
+          "Osvaldo Burgos Schirmer",
+          "Adriana Waltrick Dos Santos"
+        ]
+      }
+    ],
+    "top_reincidentes": [
+      {
+        "conselheiro": "Roberto Luiz Leme Klabin",
+        "empresa": "Klabin S.A.",
+        "anos": 24
+      },
+      {
+        "conselheiro": "Omar Carneiro Da Cunha Sobrinho",
+        "empresa": "Energisa S.A.",
+        "anos": 22
+      },
+      {
+        "conselheiro": "Yoshiaki Nakano",
+        "empresa": "Cia Siderurgica Nacional",
+        "anos": 21
+      },
+      {
+        "conselheiro": "Celso Lafer",
+        "empresa": "Klabin S.A.",
+        "anos": 20
+      },
+      {
+        "conselheiro": "Rubens Antonio Barbosa",
+        "empresa": "Csu Digital S.A.",
+        "anos": 19
+      },
+      {
+        "conselheiro": "César Suaki Dos Santos",
+        "empresa": "Bradsaúde S.A.",
+        "anos": 19
+      },
+      {
+        "conselheiro": "Walter Janssen Neto",
+        "empresa": "Grendene S.A.",
+        "anos": 19
+      },
+      {
+        "conselheiro": "Antonio Dos Santos Maciel Neto",
+        "empresa": "Marfrig Global Foods S.A.",
+        "anos": 18
+      },
+      {
+        "conselheiro": "Nelson De Sampaio Bastos",
+        "empresa": "Ez Tec Empreend. E Participacoes S.A.",
+        "anos": 18
+      },
+      {
+        "conselheiro": "Moacir Teixeira Da Silva",
+        "empresa": "Helbor Empreendimentos S.A.",
+        "anos": 18
+      },
+      {
+        "conselheiro": "Francisco Andrade Conde",
+        "empresa": "Helbor Empreendimentos S.A.",
+        "anos": 18
+      },
+      {
+        "conselheiro": "Mailson Ferreira Da Nobrega",
+        "empresa": "Bco Pine S.A",
+        "anos": 18
+      },
+      {
+        "conselheiro": "Altamiro Boscoli",
+        "empresa": "Lupo S.A.",
+        "anos": 17
+      },
+      {
+        "conselheiro": "Eduardo Boccuzzi",
+        "empresa": "Bicicletas Monark S.A.",
+        "anos": 17
+      },
+      {
+        "conselheiro": "Murilo César Lemos Dos Santos Passos",
+        "empresa": "Bradsaúde S.A.",
+        "anos": 17
+      },
+      {
+        "conselheiro": "Pedro Luiz Bodin De Moraes",
+        "empresa": "Itau Unibanco Holding S.A.",
+        "anos": 17
+      },
+      {
+        "conselheiro": "Carlos Alberto Júlio",
+        "empresa": "Camil Alimentos S.A.",
+        "anos": 17
+      },
+      {
+        "conselheiro": "Francisco Honório Pinheiro Alves",
+        "empresa": "Cia Energetica Do Ceara - Coelce",
+        "anos": 16
+      },
+      {
+        "conselheiro": "Inês Corrêa De Souza",
+        "empresa": "Magazine Luiza S.A.",
+        "anos": 16
+      },
+      {
+        "conselheiro": "Helio Francisco Alves Cerqueira",
+        "empresa": "Allpark Empreendimentos, Participações E Serviços S.A.",
+        "anos": 16
+      },
+      {
+        "conselheiro": "Antônio Kandir",
+        "empresa": "Csu Digital S.A.",
+        "anos": 14
+      },
+      {
+        "conselheiro": "Romeu Côrtes Domingues",
+        "empresa": "Diagnosticos Da America S.A.",
+        "anos": 14
+      },
+      {
+        "conselheiro": "Plínio Villares Musetti",
+        "empresa": "Raia Drogasil S.A.",
+        "anos": 14
+      },
+      {
+        "conselheiro": "Roberto Rodrigues",
+        "empresa": "Cerradinho Bioenergia S.A.",
+        "anos": 13
+      },
+      {
+        "conselheiro": "Antonio Cândido De Azevedo Sodré Filho",
+        "empresa": "Romi S.A.",
+        "anos": 13
+      }
+    ]
+  },
+  "achado_2_independencia_percentual": {
+    "titulo": "Conformidade com percentual mínimo de independentes (≥20%)",
+    "fundamento": "Reg. Novo Mercado B3 Art. 15 §2°",
+    "nota": "Segmento exato não disponível via API — resultado indicativo.",
+    "total_b3_com_dados": 342,
+    "cumprem_20pct": 246,
+    "abaixo_20pct": 96,
+    "zero_independentes": 82,
+    "empresas_zero_independentes": [
+      {
+        "empresa": "AUREN OPERAÇÕES S.A.",
+        "cnpj": "00.194.724/0001-13",
+        "total_ca": 4
+      },
+      {
+        "empresa": "FERROVIA CENTRO-ATLANTICA S.A.",
+        "cnpj": "00.924.429/0001-75",
+        "total_ca": 5
+      },
+      {
+        "empresa": "CONC RIO-TERESOPOLIS S.A.",
+        "cnpj": "00.938.574/0001-05",
+        "total_ca": 7
+      },
+      {
+        "empresa": "CIELO S.A. -  INSTITUIÇÃO DE PAGAMENTO",
+        "cnpj": "01.027.058/0001-91",
+        "total_ca": 8
+      },
+      {
+        "empresa": "BBM LOGÍSTICA S.A.",
+        "cnpj": "01.107.327/0001-20",
+        "total_ca": 3
+      },
+      {
+        "empresa": "INVESTIMENTOS BEMGE S.A.",
+        "cnpj": "01.548.981/0001-79",
+        "total_ca": 4
+      },
+      {
+        "empresa": "BRF S.A.",
+        "cnpj": "01.838.723/0001-27",
+        "total_ca": 3
+      },
+      {
+        "empresa": "524 PARTICIPACOES S.A.",
+        "cnpj": "01.851.771/0001-55",
+        "total_ca": 3
+      },
+      {
+        "empresa": "CIA PARTICIPACOES ALIANCA DA BAHIA",
+        "cnpj": "01.938.783/0001-11",
+        "total_ca": 5
+      },
+      {
+        "empresa": "CONC SIST ANHANG-BANDEIRANT S.A. AUTOBAN",
+        "cnpj": "02.451.848/0001-62",
+        "total_ca": 3
+      },
+      {
+        "empresa": "BETAPART PARTICIPACOES S.A.",
+        "cnpj": "02.762.124/0001-30",
+        "total_ca": 3
+      },
+      {
+        "empresa": "PDG REALTY S.A. EMPREEND E PARTICIPACOES",
+        "cnpj": "02.950.811/0001-89",
+        "total_ca": 3
+      },
+      {
+        "empresa": "DTCOM - DIRECT TO COMPANY S.A.",
+        "cnpj": "03.303.999/0001-36",
+        "total_ca": 5
+      },
+      {
+        "empresa": "INVESTIMENTOS E PARTICIP. EM INFRA S.A. - INVEPAR",
+        "cnpj": "03.758.318/0001-24",
+        "total_ca": 3
+      },
+      {
+        "empresa": "EDP - ENERGIAS DO BRASIL S.A.",
+        "cnpj": "03.983.431/0001-03",
+        "total_ca": 1
+      },
+      {
+        "empresa": "METALFRIO SOLUTIONS S.A.",
+        "cnpj": "04.821.041/0001-08",
+        "total_ca": 6
+      },
+      {
+        "empresa": "BR MALLS PARTICIPACOES S.A.",
+        "cnpj": "06.977.745/0001-91",
+        "total_ca": 3
+      },
+      {
+        "empresa": "SECME - COMPANHIA SECURITIZADORA DE CRÉDITOS IMOBILIÁRIOS",
+        "cnpj": "07.119.838/0001-48",
+        "total_ca": 3
+      },
+      {
+        "empresa": "BCO NORDESTE DO BRASIL S.A.",
+        "cnpj": "07.237.373/0001-20",
+        "total_ca": 7
+      },
+      {
+        "empresa": "ENERGISA SUL-SUDESTE - DISTRIBUIDORA DE ENERGIA S/A",
+        "cnpj": "07.282.377/0001-20",
+        "total_ca": 3
+      },
+      {
+        "empresa": "CONCESSIONÁRIA DA LINHA 4 DO METRÔ DE SÃO PAULO S.A.",
+        "cnpj": "07.682.638/0001-07",
+        "total_ca": 6
+      },
+      {
+        "empresa": "FICA EMPREENDIMENTOS IMOBILIÁRIOS S.A.",
+        "cnpj": "07.820.907/0001-46",
+        "total_ca": 3
+      },
+      {
+        "empresa": "CPFL ENERGIAS RENOVÁVEIS S.A.",
+        "cnpj": "08.439.659/0001-50",
+        "total_ca": 4
+      },
+      {
+        "empresa": "CIA ESTADUAL DE DISTRIB ENER ELET-CEEE-D",
+        "cnpj": "08.467.115/0001-00",
+        "total_ca": 5
+      },
+      {
+        "empresa": "CIA CELG DE PARTICIPACOES - CELGPAR",
+        "cnpj": "08.560.444/0001-93",
+        "total_ca": 8
+      },
+      {
+        "empresa": "MAESTRO LOCADORA DE VEICULOS S.A.",
+        "cnpj": "08.795.211/0001-70",
+        "total_ca": 4
+      },
+      {
+        "empresa": "ENERGISA PARAÍBA - DISTRIBUIDORA DE ENERGIA S/A",
+        "cnpj": "09.095.183/0001-40",
+        "total_ca": 4
+      },
+      {
+        "empresa": "SERENA GERAÇÃO S.A.",
+        "cnpj": "09.149.503/0001-06",
+        "total_ca": 3
+      },
+      {
+        "empresa": "AFLUENTE TRANSMISSÃO DE ENERGIA ELÉTRICA S/A",
+        "cnpj": "10.338.320/0001-00",
+        "total_ca": 2
+      },
+      {
+        "empresa": "TERMELÉTRICA PERNAMBUCO III S.A.",
+        "cnpj": "10.502.676/0001-37",
+        "total_ca": 3
+      },
+      {
+        "empresa": "CONC AUTO RAPOSO TAVARES S.A.",
+        "cnpj": "10.531.501/0001-58",
+        "total_ca": 3
+      },
+      {
+        "empresa": "ENERGISA SERGIPE - DISTRIBUIDORA DE ENERGIA S/A",
+        "cnpj": "13.017.462/0001-63",
+        "total_ca": 3
+      },
+      {
+        "empresa": "WESTWING COMÉRCIO VAREJISTA S.A.",
+        "cnpj": "14.776.142/0001-50",
+        "total_ca": 5
+      },
+      {
+        "empresa": "SANSUY S.A. INDUSTRIA DE PLASTICOS",
+        "cnpj": "14.807.945/0001-24",
+        "total_ca": 9
+      },
+      {
+        "empresa": "TRONOX PIGMENTOS DO BRASIL S.A.",
+        "cnpj": "15.115.504/0001-24",
+        "total_ca": 4
+      },
+      {
+        "empresa": "CIA FERRO LIGAS DA BAHIA - FERBASA",
+        "cnpj": "15.141.799/0001-03",
+        "total_ca": 7
+      },
+      {
+        "empresa": "CONCESSIONÁRIA VIARIO S.A.",
+        "cnpj": "15.440.708/0001-30",
+        "total_ca": 3
+      },
+      {
+        "empresa": "ALFA HOLDINGS S.A.",
+        "cnpj": "17.167.396/0001-69",
+        "total_ca": 3
+      },
+      {
+        "empresa": "CIA FIACAO TECIDOS CEDRO CACHOEIRA",
+        "cnpj": "17.245.234/0001-00",
+        "total_ca": 7
+      },
+      {
+        "empresa": "ENERGISA MINAS RIO - DISTRIBUIDORA DE ENERGIA S/A",
+        "cnpj": "19.527.639/0001-58",
+        "total_ca": 2
+      }
+    ]
+  },
+  "achado_3_renovacao": {
+    "titulo": "Índice de Renovação de Conselheiros",
+    "fundamento": "FRE 2025 Data_Inicio_Primeiro_Mandato. Critério IBGC: >10 anos compromete independência.",
+    "total_conselheiros": 3639,
+    "renovados_3anos_pct": 56.1,
+    "cargo_8anos_mais": 671,
+    "cargo_8anos_pct": 18.4,
+    "cargo_12anos_mais": 389,
+    "cargo_12anos_pct": 10.7,
+    "top_longevos": [
+      {
+        "conselheiro": "Udo Döhler",
+        "empresa": "Dohler S.A.",
+        "desde": 1969,
+        "anos": 56
+      },
+      {
+        "conselheiro": "Raul Maselli",
+        "empresa": "Panatlantica S.A.",
+        "desde": 1974,
+        "anos": 51
+      },
+      {
+        "conselheiro": "Sergio Alberto Monteiro De Carvalho",
+        "empresa": "Monteiro Aranha S.A.",
+        "desde": 1978,
+        "anos": 47
+      },
+      {
+        "conselheiro": "José Mario Gomes Ribeiro",
+        "empresa": "Dohler S.A.",
+        "desde": 1978,
+        "anos": 47
+      },
+      {
+        "conselheiro": "Celi Elisabete Julia Monteiro De Carvalho",
+        "empresa": "Monteiro Aranha S.A.",
+        "desde": 1981,
+        "anos": 44
+      },
+      {
+        "conselheiro": "Sylvio Marzagão",
+        "empresa": "Bicicletas Monark S.A.",
+        "desde": 1982,
+        "anos": 43
+      },
+      {
+        "conselheiro": "Marcos Odorico Oderich",
+        "empresa": "Conservas Oderich S.A.",
+        "desde": 1982,
+        "anos": 43
+      },
+      {
+        "conselheiro": "Fabiano Soares Nogueira",
+        "empresa": "Cia Fiacao Tecidos Cedro Cachoeira",
+        "desde": 1986,
+        "anos": 39
+      },
+      {
+        "conselheiro": "Carlos Dinucci",
+        "empresa": "Lupo S.A.",
+        "desde": 1987,
+        "anos": 38
+      },
+      {
+        "conselheiro": "Ricardo Lupo",
+        "empresa": "Lupo S.A.",
+        "desde": 1987,
+        "anos": 38
+      },
+      {
+        "conselheiro": "Elvio Lupo Jr.",
+        "empresa": "Lupo S.A.",
+        "desde": 1987,
+        "anos": 38
+      },
+      {
+        "conselheiro": "Ângela Annes Guimarães",
+        "empresa": "Banco Bmg S/A",
+        "desde": 1987,
+        "anos": 38
+      },
+      {
+        "conselheiro": "Liliana Aufiero",
+        "empresa": "Lupo S.A.",
+        "desde": 1988,
+        "anos": 37
+      },
+      {
+        "conselheiro": "Ruy Salvari Baumer",
+        "empresa": "Baumer S.A.",
+        "desde": 1988,
+        "anos": 37
+      },
+      {
+        "conselheiro": "Iguatemi Lucio Moreira",
+        "empresa": "Conservas Oderich S.A.",
+        "desde": 1989,
+        "anos": 36
+      },
+      {
+        "conselheiro": "Pedro Grendene Bartelle",
+        "empresa": "Vulcabras S.A.",
+        "desde": 1990,
+        "anos": 35
+      },
+      {
+        "conselheiro": "Denise Aguiar Alvarez",
+        "empresa": "Bco Bradesco S.A.",
+        "desde": 1990,
+        "anos": 35
+      },
+      {
+        "conselheiro": "Ricardo Teixeira Mendes",
+        "empresa": "Metisa Metalurgica Timboense S.A.",
+        "desde": 1990,
+        "anos": 35
+      },
+      {
+        "conselheiro": "Marcelo Massud",
+        "empresa": "Metisa Metalurgica Timboense S.A.",
+        "desde": 1990,
+        "anos": 35
+      },
+      {
+        "conselheiro": "Edvaldo Angelo",
+        "empresa": "Metisa Metalurgica Timboense S.A.",
+        "desde": 1990,
+        "anos": 35
+      }
+    ]
+  },
+  "achado_4_genero": {
+    "titulo": "Diversidade de Gênero nos Conselhos de Administração",
+    "fundamento": "FRE 2025 Declaração de Gênero. Sem quota legal para S.A. abertas.",
+    "empresas_sem_mulher_no_ca": 329,
+    "empresas_sem_mulher_pct": 47.5,
+    "participacao_feminina_media_pct": 13.6,
+    "total_mulheres_ca": 566,
+    "total_homens_ca": 3104,
+    "empresas_sem_mulher": [
+      {
+        "cnpj": "00.070.698/0001-11",
+        "nome": "COMPANHIA ENERGÉTICA DE BRASÍLIA - CEB",
+        "size": 9
+      },
+      {
+        "cnpj": "00.194.724/0001-13",
+        "nome": "AUREN OPERAÇÕES S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "00.242.184/0001-04",
+        "nome": "ARMAC LOCAÇÃO, LOGÍSTICA E SERVIÇOS S.A.",
+        "size": 7
+      },
+      {
+        "cnpj": "00.336.701/0001-04",
+        "nome": "TELEC BRASILEIRAS S.A. TELEBRAS",
+        "size": 0
+      },
+      {
+        "cnpj": "00.357.038/0001-16",
+        "nome": "AXIA ENERGIA NORTE S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "00.359.742/0001-08",
+        "nome": "FICTOR ALIMENTOS S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "00.644.907/0001-93",
+        "nome": "INVESTCO S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "00.979.969/0001-56",
+        "nome": "CAIXA ADM DIV PUB ESTADUAL SA",
+        "size": 4
+      },
+      {
+        "cnpj": "01.104.937/0001-70",
+        "nome": "ELETROBRÁS PARTICIPAÇÕES S.A. - ELETROPAR",
+        "size": 5
+      },
+      {
+        "cnpj": "01.107.327/0001-20",
+        "nome": "BBM LOGÍSTICA S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "01.543.032/0001-04",
+        "nome": "EQUATORIAL GOIÁS DISTRIBUIDORA DE ENERGIA S.A.",
+        "size": 5
+      },
+      {
+        "cnpj": "01.599.101/0001-93",
+        "nome": "SEQUOIA LOGÍSTICA E TRANSPORTES S.A.",
+        "size": 4
+      },
+      {
+        "cnpj": "01.851.771/0001-55",
+        "nome": "524 PARTICIPACOES S.A.",
+        "size": 0
+      },
+      {
+        "cnpj": "01.896.779/0001-38",
+        "nome": "CSU DIGITAL S.A.",
+        "size": 5
+      },
+      {
+        "cnpj": "01.938.783/0001-11",
+        "nome": "CIA PARTICIPACOES ALIANCA DA BAHIA",
+        "size": 5
+      },
+      {
+        "cnpj": "01.957.772/0001-89",
+        "nome": "SUL 116 PARTICIPACOES S.A.",
+        "size": 2
+      },
+      {
+        "cnpj": "01.968.293/0001-68",
+        "nome": "ELETRORIVER S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "02.016.440/0001-62",
+        "nome": "RGE SUL DISTRIBUIDORA DE ENERGIA S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "02.016.507/0001-69",
+        "nome": "AXIA ENERGIA SUL S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "02.062.747/0001-08",
+        "nome": "SUDESTE S.A.",
+        "size": 0
+      },
+      {
+        "cnpj": "02.193.750/0001-52",
+        "nome": "DEXXOS PARTICIPAÇÕES S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "02.201.787/0001-85",
+        "nome": "CEL PARTICIPAÇÕES S.A. - CELPAR",
+        "size": 3
+      },
+      {
+        "cnpj": "02.258.422/0001-97",
+        "nome": "INEPAR EQUIPAMENTOS E MONTAGENS S/A - EM RECUPERACAO JUDICIA",
+        "size": 3
+      },
+      {
+        "cnpj": "02.281.836/0001-37",
+        "nome": "TRANSNORDESTINA LOGISTICA SA",
+        "size": 6
+      },
+      {
+        "cnpj": "02.286.479/0001-08",
+        "nome": "LOCALIZA FLEET S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "02.291.077/0001-93",
+        "nome": "PRODUTORES ENERGET.DE MANSO S.A.- PROMAN",
+        "size": 4
+      },
+      {
+        "cnpj": "02.357.251/0001-53",
+        "nome": "LIFEMED INDUSTRIAL DE EQUIP. E ART. MEDICOS E HOSP. S.A",
+        "size": 4
+      },
+      {
+        "cnpj": "02.365.069/0001-44",
+        "nome": "PADTEC HOLDING S.A.",
+        "size": 5
+      },
+      {
+        "cnpj": "02.382.073/0001-10",
+        "nome": "PROLAGOS S/A - CONC.DE SERVICOS PÚBLICOS DE ÁGUA E ESGOTO",
+        "size": 3
+      },
+      {
+        "cnpj": "02.397.080/0001-96",
+        "nome": "ITAPEBI GERACAO DE ENERGIA S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "02.502.844/0001-66",
+        "nome": "RUMO MALHA PAULISTA S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "02.509.491/0001-26",
+        "nome": "CONC ECOVIAS IMIGRANTES S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "02.536.066/0001-26",
+        "nome": "VITAL ENGENHARIA AMBIENTAL S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "02.591.787/0001-39",
+        "nome": "CAPITALPART PARTICIPACOES S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "02.664.042/0001-52",
+        "nome": "TERMINAL GARAGEM MENEZES CORTES S.A.",
+        "size": 2
+      },
+      {
+        "cnpj": "02.724.983/0001-34",
+        "nome": "SANESALTO SANEAMENTO S.A.",
+        "size": 3
+      },
+      {
+        "cnpj": "02.762.124/0001-30",
+        "nome": "BETAPART PARTICIPACOES S.A.",
+        "size": 0
+      },
+      {
+        "cnpj": "02.796.775/0001-40",
+        "nome": "GAMA PARTICIPACOES S.A.",
+        "size": 0
+      },
+      {
+        "cnpj": "02.919.555/0001-67",
+        "nome": "ARTERIS S.A.",
+        "size": 0
+      },
+      {
+        "cnpj": "02.950.811/0001-89",
+        "nome": "PDG REALTY S.A. EMPREEND E PARTICIPACOES",
+        "size": 3
+      }
+    ]
+  },
+  "achado_5_tse_vinculos": {
+    "titulo": "Vínculos Políticos — Conselheiros Doadores TSE",
+    "fundamento": "TSE Dados Abertos 2022. Cobertura parcial: SC+RS.",
+    "total_identificados": 55,
+    "conselheiros": [
+      {
+        "nome": "ALEXANDRE GRENDENE BARTELLE",
+        "empresa": "GRENDENE S.A.",
+        "cargo": "20 - Presidente do Conselho de Administração",
+        "total_doado_brl": 4130000.0,
+        "partidos": [
+          "UNIÃO",
+          "PSDB",
+          "PP",
+          "PSC"
+        ]
+      },
+      {
+        "nome": "RUBENS OMETTO SILVEIRA MELLO",
+        "empresa": "COMPASS GÁS E ENERGIA S.A.",
+        "cargo": "20 - Presidente do Conselho de Administração",
+        "total_doado_brl": 1600000.0,
+        "partidos": [
+          "REPUBLICANOS",
+          "PL",
+          "PTB",
+          "PSD"
+        ]
+      },
+      {
+        "nome": "ANDRÉ BIER GERDAU JOHANNPETER",
+        "empresa": "GERDAU S.A.",
+        "cargo": "20 - Presidente do Conselho de Administração",
+        "total_doado_brl": 1090000.0,
+        "partidos": [
+          "NOVO",
+          "REPUBLICANOS",
+          "PL",
+          "PSDB",
+          "PP",
+          "MDB",
+          "CIDADANIA",
+          "PSC"
+        ]
+      },
+      {
+        "nome": "MARCELO EDUARDO MARTINS",
+        "empresa": "COMPASS GÁS E ENERGIA S.A.",
+        "cargo": "21 - Vice Presidente Cons. de Administração",
+        "total_doado_brl": 1000000.0,
+        "partidos": [
+          "MDB",
+          "PSDB"
+        ]
+      },
+      {
+        "nome": "PEDRO GRENDENE BARTELLE",
+        "empresa": "GRENDENE S.A.",
+        "cargo": "21 - Vice Presidente Cons. de Administração",
+        "total_doado_brl": 1000000.0,
+        "partidos": [
+          "PSDB",
+          "PP",
+          "PL"
+        ]
+      },
+      {
+        "nome": "DAVID ABRAMO RANDON",
+        "empresa": "FRASLE MOBILITY S.A.",
+        "cargo": "20 - Presidente do Conselho de Administração",
+        "total_doado_brl": 308000.0,
+        "partidos": [
+          "REPUBLICANOS",
+          "PL",
+          "PSDB",
+          "PODE",
+          "PP",
+          "MDB",
+          "PDT"
+        ]
+      },
+      {
+        "nome": "RICARDO CASTELLAR DE FARIA",
+        "empresa": "GRANJA FARIA S.A.",
+        "cargo": "20 - Presidente do Conselho de Administração",
+        "total_doado_brl": 305000.0,
+        "partidos": [
+          "NOVO",
+          "PSDB",
+          "PL",
+          "PP"
+        ]
+      },
+      {
+        "nome": "ALEXANDRE RANDON",
+        "empresa": "FRASLE MOBILITY S.A.",
+        "cargo": "21 - Vice Presidente Cons. de Administração",
+        "total_doado_brl": 210000.0,
+        "partidos": [
+          "NOVO",
+          "PSDB",
+          "PL",
+          "PTB",
+          "PP"
+        ]
+      },
+      {
+        "nome": "SYLVIO KLEIN TROMPOWSKY HECK",
+        "empresa": "DIRECIONAL ENGENHARIA S.A.",
+        "cargo": "27 - Conselho de Adm. Independente (Efetivo)",
+        "total_doado_brl": 200000.0,
+        "partidos": [
+          "REPUBLICANOS"
+        ]
+      },
+      {
+        "nome": "CANDIDO BOTELHO BRACHER",
+        "empresa": "INVESTIMENTOS BEMGE S.A.",
+        "cargo": "22 - Conselho de Administração (Efetivo)",
+        "total_doado_brl": 200000.0,
+        "partidos": [
+          "PSDB"
+        ]
+      },
+      {
+        "nome": "PAULO SERGIO COUTINHO GALVÃO FILHO",
+        "empresa": "KLABIN S.A.",
+        "cargo": "22 - Conselho de Administração (Efetivo)",
+        "total_doado_brl": 163043.12,
+        "partidos": [
+          "NOVO"
+        ]
+      },
+      {
+        "nome": "PATRICE PHILIPPE NOGUEIRA BAPTISTA ETLIN",
+        "empresa": "TIGRE S.A. PARTICIPAÇÕES",
+        "cargo": "22 - Conselho de Administração (Efetivo)",
+        "total_doado_brl": 132343.33000000002,
+        "partidos": [
+          "NOVO",
+          "PODE"
+        ]
+      },
+      {
+        "nome": "UDO DÖHLER",
+        "empresa": "DOHLER S.A.",
+        "cargo": "20 - Presidente do Conselho de Administração",
+        "total_doado_brl": 128049.0,
+        "partidos": [
+          "REPUBLICANOS"
+        ]
+      },
+      {
+        "nome": "SERGIO LUIZ SILVA SCHWARTZ",
+        "empresa": "IOCHPE MAXION S.A.",
+        "cargo": "27 - Conselho de Adm. Independente (Efetivo)",
+        "total_doado_brl": 120000.0,
+        "partidos": [
+          "MDB",
+          "PSDB"
+        ]
+      },
+      {
+        "nome": "FLAVIO BENÍCIO JANSEN FERREIRA",
+        "empresa": "ALLIED TECNOLOGIA S.A.",
+        "cargo": "22 - Conselho de Administração (Efetivo)",
+        "total_doado_brl": 100000.0,
+        "partidos": [
+          "NOVO"
+        ]
+      },
+      {
+        "nome": "JORGE LUIZ SILVA LOGEMANN",
+        "empresa": "SLC AGRICOLA S.A.",
+        "cargo": "21 - Vice Presidente Cons. de Administração",
+        "total_doado_brl": 94000.0,
+        "partidos": [
+          "NOVO",
+          "PL",
+          "PP",
+          "MDB",
+          "PSC"
+        ]
+      },
+      {
+        "nome": "CARLOS FERNANDO COUTO DE OLIVEIRA SOUTO",
+        "empresa": "CIA HABITASUL DE PARTICIPACOES",
+        "cargo": "22 - Conselho de Administração (Efetivo)",
+        "total_doado_brl": 90000.0,
+        "partidos": [
+          "NOVO"
+        ]
+      },
+      {
+        "nome": "EDUARDO SILVA LOGEMANN",
+        "empresa": "SLC AGRICOLA S.A.",
+        "cargo": "20 - Presidente do Conselho de Administração",
+        "total_doado_brl": 84000.0,
+        "partidos": [
+          "NOVO",
+          "PL",
+          "PP",
+          "MDB",
+          "PSC"
+        ]
+      },
+      {
+        "nome": "HÉLIO SEIBEL",
+        "empresa": "DEXCO S.A.",
+        "cargo": "21 - Vice Presidente Cons. de Administração",
+        "total_doado_brl": 68123.0,
+        "partidos": [
+          "NOVO",
+          "PSDB"
+        ]
+      },
+      {
+        "nome": "JORGE JOSÉ CENCI",
+        "empresa": "SENIOR SISTEMAS S.A.",
+        "cargo": "20 - Presidente do Conselho de Administração",
+        "total_doado_brl": 60000.0,
+        "partidos": [
+          "NOVO"
+        ]
+      },
+      {
+        "nome": "DÉCIO DA SILVA",
+        "empresa": "WEG S.A.",
+        "cargo": "20 - Presidente do Conselho de Administração",
+        "total_doado_brl": 60000.0,
+        "partidos": [
+          "MDB",
+          "PSDB"
+        ]
+      },
+      {
+        "nome": "MARTIN WERNINGHAUS",
+        "empresa": "WEG S.A.",
+        "cargo": "22 - Conselho de Administração (Efetivo)",
+        "total_doado_brl": 60000.0,
+        "partidos": [
+          "MDB",
+          "PSDB"
+        ]
+      },
+      {
+        "nome": "RODRIGO SEARA CASSOL",
+        "empresa": "MELNICK DESENVOLVIMENTO IMOBILIÁRIO S.A.",
+        "cargo": "27 - Conselho de Adm. Independente (Efetivo)",
+        "total_doado_brl": 40000.0,
+        "partidos": [
+          "NOVO"
+        ]
+      },
+      {
+        "nome": "MIGUEL ABUHAB",
+        "empresa": "NEOGRID PARTICIPAÇÕES S.A.",
+        "cargo": "20 - Presidente do Conselho de Administração",
+        "total_doado_brl": 35000.0,
+        "partidos": [
+          "NOVO",
+          "PODE",
+          "PL",
+          "PSD"
+        ]
+      },
+      {
+        "nome": "GUILHERME PEIRÃO LEAL",
+        "empresa": "NATURA &CO HOLDING S.A.",
+        "cargo": "29 - Outros Conselheiros",
+        "total_doado_brl": 25000.0,
+        "partidos": [
+          "PSDB",
+          "PSD",
+          "PT"
+        ]
+      },
+      {
+        "nome": "LAÉRCIO JOSÉ DE LUCENA COSENTINO",
+        "empresa": "TOTVS S.A.",
+        "cargo": "20 - Presidente do Conselho de Administração",
+        "total_doado_brl": 25000.0,
+        "partidos": [
+          "PODE"
+        ]
+      },
+      {
+        "nome": "ANDRÉ SOUTO MAIOR PESSÔA",
+        "empresa": "SLC AGRICOLA S.A.",
+        "cargo": "27 - Conselho de Adm. Independente (Efetivo)",
+        "total_doado_brl": 20000.0,
+        "partidos": [
+          "NOVO"
+        ]
+      },
+      {
+        "nome": "DANIELA BONI",
+        "empresa": "PORTO PONTA DO FELIX S/A",
+        "cargo": "23 - Conselho de Administração (Suplente)",
+        "total_doado_brl": 20000.0,
+        "partidos": [
+          "PL"
+        ]
+      },
+      {
+        "nome": "LUIZ ALBERTO BONI",
+        "empresa": "PORTO PONTA DO FELIX S/A",
+        "cargo": "22 - Conselho de Administração (Efetivo)",
+        "total_doado_brl": 20000.0,
+        "partidos": [
+          "PL"
+        ]
+      },
+      {
+        "nome": "WALTER JANSSEN NETO",
+        "empresa": "GRENDENE S.A.",
+        "cargo": "27 - Conselho de Adm. Independente (Efetivo)",
+        "total_doado_brl": 20000.0,
+        "partidos": [
+          "NOVO"
+        ]
+      }
+    ]
+  }
+}
